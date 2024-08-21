@@ -10126,5 +10126,15 @@ li.info-pts span {
 }
 
 .header.style3 .main-menu > li:nth-child(3){
-   display: none;
+/*   display: none;*/
+}
+
+.compra-puntos{
+    border: 1px solid red;
+    
+    border-radius: 8px;
+    padding: 20px;
+}
+.compra-puntos p {
+    margin: 0;
 }
