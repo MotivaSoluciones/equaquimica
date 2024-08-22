@@ -10125,8 +10125,8 @@ li.info-pts span {
     align-items: self-start;
 }
 
-.header.style3 .main-menu > li:nth-child(3){
-/*   display: none;*/
+.header.style3 .main-menu > li:nth-child(1){
+   display: none;
 }
 
 .compra-puntos{
