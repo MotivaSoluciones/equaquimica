@@ -122,13 +122,13 @@
                             <li class="">
                                 <a href="productos.html">Canjea tus puntos</a>
                             </li>
-                             <li class="">
+                            <li class="">
                                 <a href="cotiza.html">Cotiza tu ticket</a>
                             </li>
                             <li class="">
                                 <a href="puntos.html">Estado de cuenta</a>
                             </li>
-                           <li class="active">
+                            <li class="active">
                                 <a href="meta.html">Mi meta</a>
                             </li>
                             <li class="">
@@ -148,7 +148,7 @@
         </div>
         <div class="row margin-top-50">
             <div class="col-md-12">
-                <h4 style="font-weight: 600"><i class="fa fa-calendar"></i> Trimestre (Enero a Marzo)</h4>
+                <h4 style="font-weight: 600"><i class="fa fa-calendar"></i> Setiembre</h4>
             </div>
         </div>
         <div class="row margin-bottom-50">
@@ -157,10 +157,29 @@
                         <span class="monto-facturado monto-compra">650</span> </b></p>
             </div>
             <div class="col-sm-12 text-center">
-                <p style="font-weight: 600">Tu meta de la temporada es: <b> <span class="monto-compra">  US$ </span>
-                    <span class="monto-meta monto-compra">1000</span> </b>
+                <p style="font-weight: 600">Tu meta del mes es: <b> <span class="monto-compra"> US$ </span>
+                        <span class="monto-meta monto-compra">1000</span> </b>
                 </p>
                 <div id="chartdiv2"></div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row margin-top-50">
+            <div class="col-md-12">
+                <h4 style="font-weight: 600"><i class="fa fa-calendar"></i> Enero a junio</h4>
+            </div>
+        </div>
+        <div class="row margin-bottom-50">
+            <div class="col-md-12">
+                <p>➤ Tu avance a la fecha: <b> <span class="monto-compra">US$</span>
+                        <span class="monto-facturado monto-compra">650</span> </b></p>
+            </div>
+            <div class="col-sm-12 text-center">
+                <p style="font-weight: 600">Tu meta semestral es: <b> <span class="monto-compra"> US$ </span>
+                        <span class="monto-meta monto-compra">1000</span> </b>
+                </p>
+                <div id="costa"></div>
             </div>
 
         </div>
@@ -301,12 +320,12 @@
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/masonry.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
-     <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+    <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
     <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
-    
-    
-        <!-- Chart code -->
+
+
+    <!-- Chart code -->
     <script>
         am4core.ready(function() {
 
@@ -344,7 +363,7 @@
 
                 /* Add data */
                 chart.data = [{
-                    "category": "progreso",
+                    "category": "Progreso",
                     "value": 65,
                     "target": 78
                 }];
@@ -651,7 +670,7 @@
         }); // end am4core.ready()
 
     </script>
-    
+
 </body>
 
 </html>
